@@ -26,6 +26,6 @@ Twitter data is gathered using Twitter Developer account and API keys. The twitt
   
 ## Hydrator
 
-Developers can't share the complete twitter data based on privacy policy. However, the tweets IDs are allowed to share. [Hydrator](https://github.com/DocNow/hydrator) is a desktop application for hydrating Twitter ID datasets which can turn tweets IDs back into JSON or CSV complete files.
+Developers can't share the detialed individual-level twitter data based on privacy policy. However, the tweets IDs are allowed to share. [Hydrator](https://github.com/DocNow/hydrator) is a desktop application for hydrating Twitter ID datasets which can turn tweets IDs back into JSON or CSV complete files.
 
 
