@@ -8,8 +8,8 @@ I reused the manually labeled datasets from these two research groups, which con
 
 1. [CoAID](https://github.com/cuilimeng/CoAID): COVID-19 heAlthcare mIsinformation Dataset
 
-- background: 
-- how they labeled data: They term 'myth' and 'rumor' as 'fake claim', in order to contrast those with 'true claim'. examples:"Only older adults and young people are at risks" is a fake claim, while "5G mobile networks DO NOT spread COVID-19" is a true claim 
+- background: COVID-19 virus quickly spreads around the world, and so does for the COVID-19 misinformation. Such information has caused confusion among people, disruptions in society, and even deadly consequences in health problems. The auhtors collected and annotated the COVID-19 related news and claims on websites, social platforms.
+- how they labeled data: Claim was annotated into fake or true by comparing the reliable sources, WHO, MNT. They classified the myth and rumor as fake claim'. Some examples: "Only older adults and young people are at risks" is a fake claim, while "5G mobile networks DO NOT spread COVID-19" is a true claim 
 - chosen dataset: 457 fake claim(of one or two sentences) tweets, 6342 real calim tweets which collected September 1, 2020 from through Nov 1, 2020
 
 2. [AnTiVax](https://github.com/SakibShahriar95/ANTiVax)
