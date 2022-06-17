@@ -6,8 +6,18 @@ COVID-19 was claimed as a worldwide pandemic on March 11, 2020. Misleading	COVID
 # Dataset
 I reused the manually labeled datasets from these two research groups, which contain tweet IDs and whether they were identified as misinformation or not. 
 
-1. [CoAID](https://github.com/cuilimeng/CoAID)
+1. [CoAID](https://github.com/cuilimeng/CoAID): COVID-19 heAlthcare mIsinformation Dataset
+
+- background: 
+- how they labeled data: They term 'myth' and 'rumor' as 'fake claim', in order to contrast those with 'true claim'. examples:"Only older adults and young people are at risks" is a fake claim, while "5G mobile networks DO NOT spread COVID-19" is a true claim 
+- chosen dataset: 457 fake claim(of one or two sentences) tweets, 6342 real calim tweets which collected September 1, 2020 from through Nov 1, 2020
+
 2. [AnTiVax](https://github.com/SakibShahriar95/ANTiVax)
+
+- background: There has been a rise in vaccine hesitancy beacuse of misinformation being spread on social media. To promote research in COVID-19 vaccine misinformaiton detection work, the authors of this paper shared their collected and annotated COVID-19 vaccine tweets to public.
+- how they labeled data: classfied into misinformation or general vaccine tweets using reliable source by human and validated by medical experts. This ensured the sarcastic and humorous content were not included as misinformation.
+- chosen dataset: They used these keywords to extract COVID-19 vaccine related dataset from Dec 1, 2020 to  July 31, 2021: 'vaccine', 'pfizer', 'moderna', 'astrazeneca', 'sputnik' and 'sinopharm'. Finally, 15, 073 tweets were labeled, 5751 of them were misinformation and 9322 were general vaccine-related tweets.
+
 
 # Instruction
 We have following folders:
@@ -33,5 +43,3 @@ Twitter data is gathered using Twitter Developer account and API keys. The twitt
 ## Hydrator
 
 Developers can't share the detialed individual-level twitter data based on privacy policy. However, the tweets IDs are allowed to share. [Hydrator](https://github.com/DocNow/hydrator) is a desktop application for hydrating Twitter ID datasets which can turn tweets IDs back into JSON or CSV complete files.
-
-
