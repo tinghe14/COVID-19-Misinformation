@@ -31,8 +31,12 @@ We have following folders:
 | is_missinfo| 1 if this is misinformation; 0 if not |
 
 - [`Preprocess`]()
-- [`Model`]()
-- [`Demostration`]()
+some scripts to visual and clean the datasets
+- [`Model & Demostration`]()
+  - run different experiments, and save the best-performance model for the further utilization
+  - streamlit scripts to create the demo
+- ['Presentation']()
+final slide, video and medium post
 
 # Used Open-sourced Tool/API
 
@@ -43,3 +47,7 @@ Twitter data is gathered using Twitter Developer account and API keys. The twitt
 ## Hydrator
 
 Developers can't share the detialed individual-level twitter data based on privacy policy. However, the tweets IDs are allowed to share. [Hydrator](https://github.com/DocNow/hydrator) is a desktop application for hydrating Twitter ID datasets which can turn tweets IDs back into JSON or CSV complete files.
+
+## Streamlit
+
+[Streamlit](https://streamlit.io/), a very convenient API with to build pretty web apps using python scripts only.
