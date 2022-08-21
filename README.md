@@ -22,7 +22,7 @@ I reused the manually labeled datasets from these two research groups, which con
 # Instruction
 We have following folders:
 
-- [`Data`]()
+- [`Data`](https://github.com/tinghe14/COVID-19-Misinformation/tree/main/Data)
 
 | Variable | Description |
 | --- | --- |
@@ -30,12 +30,12 @@ We have following folders:
 | id | tweet ID |
 | is_missinfo| 1 if this is misinformation; 0 if not |
 
-- [`Preprocess`]()
+- [`Preprocess`](https://github.com/tinghe14/COVID-19-Misinformation/tree/main/Preprocess)
 some scripts to visual and clean the datasets
-- [`Model & Demostration`]()
+- [`Model & Demostration`](https://github.com/tinghe14/COVID-19-Misinformation/tree/main/Model%20%26%20Demostration)
   - run different experiments, and save the best-performance model for the further utilization
   - streamlit scripts to create the demo
-- ['Presentation']()
+- [`Presentation`](https://github.com/tinghe14/COVID-19-Misinformation/tree/main/Presentation)
 final slide, video and medium post
 
 # Used Open-sourced Tool/API
