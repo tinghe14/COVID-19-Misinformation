@@ -60,7 +60,7 @@ layers=[
 
 # RENDER MAP
 viewstate=pdk.ViewState(latitude=37.09,longitude=-95.71,zoom=2)
-r = pdk.Deck(layers=layers, initial_view_state=viewstate, map_style='mapbox://styles/hetinghelen/cl6ogwalx000214qq3wgej6po', tooltip={
+r = pdk.Deck(layers=layers, initial_view_state=viewstate, map_style='default mapbox template or your own customized template', tooltip={
     'text':'State: {state}\n Num of Tweets: {data_radius}\n Misleading Tweets Detected by Model: {mis_num}({mis_per})%\n Non-missleading Tweets Detected by Model: {non_mis_num}({non_mis_per}%)\n'})
     # TO-DO: misleading num,(percentage). non-misleading num (precentage)
 r
