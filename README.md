@@ -38,6 +38,14 @@ some scripts to visual and clean the datasets
 - [`Presentation`](https://github.com/tinghe14/COVID-19-Misinformation/tree/main/Presentation)
 final slide, video and medium post
 
+# My Presentation
+
+## Link of 5-Mins Demo at Youtube
+https://www.youtube.com/watch?v=BDILUN4h_pQ&t=4s
+
+## Link of my Medium Post
+https://medium.com/@hetinghelen/covid-misleading-tweets-detection-b4f7413ad8d7
+
 # Used Open-sourced Tool/API
 
 ## Twitter API
