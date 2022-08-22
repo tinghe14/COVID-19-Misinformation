@@ -10,15 +10,6 @@ nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('stopwords')
 from pages.BERT.BertClassifier import BertClassifier
-
-data = pd.read_csv("atweets_complete_labeled.csv")
-select_columns = ['user_location', 'text', 'favorite_count',
-       'retweet_count', 'user_favourites_count', 'user_followers_count',
-       'user_friends_count', 'user_listed_count', 'user_statuses_count',
-       'user_verified']
-df = data[select_columns]
-
-import torch
 import torch.nn as nn
 from transformers import BertModel
 
