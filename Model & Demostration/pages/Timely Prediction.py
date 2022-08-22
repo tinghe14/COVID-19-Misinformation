@@ -12,7 +12,7 @@ st.title('COVID Misleading Informaiton Detection 🔥')
 st.sidebar.markdown("Timely Prediction 🚨")
 
 # TOKEN
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAE70VgEAAAAA4r5dhYN1Cx3lvTddukt8uVNqwPg%3Di3ydR4w3LI2XPkN2bxD41aPZ0BhzD8g5cpEHJnKSvJ4BLEWAUC'
+bearer_token = 'type_in_your_bear_token_in_string'
 auth = tweepy.OAuth2BearerHandler(bearer_token)
 api = tweepy.API(auth) 
 
